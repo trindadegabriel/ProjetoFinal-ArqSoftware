@@ -1,0 +1,13 @@
+[tool.black]
+line-length = 88
+target-version = ['py39']
+
+[tool.flake8]
+max-line-length = 88
+ignore = ["E203", "W503"]
+
+[tool.mypy]
+files = "meu_projeto"
+disallow_untyped_calls = true
+disallow_untyped_defines = true
+strict_optional = true
